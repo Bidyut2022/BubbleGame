@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Rajdhani:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  width:100%;
+  height: 100%;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pannel{
+  width: 80%;
+  height: 80%;
+  background-color:lightgreen;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+.pannelTop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0C356A;
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-family: 'Handjet', cursive;
+  border-radius: 10px 10px 0 0;
+}
+#pbottom{
+  /* width: 100%; */
+  height:90%;
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rajdhani', sans-serif;
+  background-color:white;
+  border-radius: 0 0 10px 10px;
+
+}
+.element{
+  display: flex;
+  align-items: center;
+  gap:70px;
+}
+.box{
+  background-color: white;
+  padding:10px;
+  border-radius: 5px;
+  color:black;
+}
+.content{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.bubble{
+  margin: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #8CABFF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
+}
+.bubble:hover{
+  background-color: #4477CE ;
+}
+.box{
+font-family: 'Rajdhani', sans-serif;
+}
